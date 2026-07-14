@@ -1,0 +1,97 @@
+backend:
+  name: git-gateway
+  repo: SEU-USUARIO-GITHUB/NOME-DO-REPO   # TODO: repo do GitHub que vai hospedar o site da Michele
+  branch: main
+  identity_url: https://auth.decapbridge.com/sites/SEU-SITE-ID-AQUI   # TODO: pegar em decapbridge.com ao criar o site
+  gateway_url: https://gateway.decapbridge.com
+
+# Link do site e logo no painel (opcional)
+site_url: https://www.michelefernandezacademy.com.br
+logo_url: https://decapbridge.com/decapcms-with-bridge.svg
+# Mídia
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+# Interface em português
+locale: pt
+
+# Publicação manual
+publish_mode: editorial_workflow
+
+collections:
+
+  # ─── DADOS DO SITE (Michele Fernández Academy) ─────────
+  - name: "site"
+    label: "Site"
+    files:
+      - name: "dados"
+        label: "Dados Gerais do Site"
+        file: "_data/site.json"
+        fields:
+
+          # EMPRESA
+          - label: "Informações da Academy"
+            name: "empresa"
+            widget: "object"
+            fields:
+              - { label: "Nome", name: "nome", widget: "string" }
+              - { label: "WhatsApp (só números, ex: 5547988202922)", name: "whatsapp", widget: "string" }
+              - { label: "Instagram (link completo)", name: "instagram", widget: "string", required: false }
+              - { label: "Endereço completo", name: "endereco", widget: "string", required: false }
+
+          # HERO
+          - label: "Seção Hero (Topo)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Selo de destaque", name: "badge", widget: "string" }
+              - { label: "Título (aceita HTML simples)", name: "titulo", widget: "text" }
+              - { label: "Subtítulo", name: "subtitulo", widget: "text" }
+
+          # MÉTRICAS
+          - label: "Métricas (números)"
+            name: "metricas"
+            widget: "object"
+            fields:
+              - { label: "Anos de experiência", name: "anos", widget: "string" }
+              - { label: "Horas de aula ministradas", name: "horas", widget: "string" }
+              - { label: "Mulheres formadas", name: "alunas", widget: "string" }
+
+          # SOBRE
+          - label: "Seção Sobre (Quem é a Michele)"
+            name: "sobre"
+            widget: "object"
+            fields:
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Parágrafo 1", name: "texto1", widget: "text" }
+              - { label: "Parágrafo 2", name: "texto2", widget: "text" }
+
+          # CURSOS
+          - label: "Cursos"
+            name: "cursos"
+            widget: "list"
+            fields:
+              - { label: "Selo (ex: Curso Prático)", name: "tag", widget: "string" }
+              - { label: "Título do curso", name: "titulo", widget: "string" }
+              - { label: "Descrição", name: "descricao", widget: "text" }
+              - { label: "Imagem", name: "imagem", widget: "image" }
+              - { label: "Mensagem do WhatsApp para este curso", name: "mensagem_whatsapp", widget: "string" }
+
+          # DEPOIMENTOS
+          - label: "Depoimentos"
+            name: "depoimentos"
+            widget: "list"
+            fields:
+              - { label: "Estrelas (ex: ★★★★★)", name: "estrelas", widget: "string" }
+              - { label: "Depoimento", name: "texto", widget: "text" }
+              - { label: "Nome da aluna", name: "nome", widget: "string" }
+              - { label: "Cargo/Descrição (ex: Aluna formada)", name: "cargo", widget: "string" }
+              - { label: "Foto", name: "imagem", widget: "image" }
+
+          # FAQ
+          - label: "Perguntas Frequentes (FAQ)"
+            name: "faq"
+            widget: "list"
+            fields:
+              - { label: "Pergunta", name: "pergunta", widget: "string" }
+              - { label: "Resposta", name: "resposta", widget: "text" }
