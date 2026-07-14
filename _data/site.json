@@ -1,0 +1,86 @@
+{
+  "empresa": {
+    "nome": "Michele Fernández Academy",
+    "whatsapp": "5547988202922",
+    "instagram": "https://www.instagram.com/michelefernandez.academy/",
+    "endereco": "R. Iraque, 20 - Nações, Balneário Camboriú - SC, 88338-280"
+  },
+  "hero": {
+    "badge": "Matrículas abertas · próxima turma",
+    "titulo": "Conquiste sua independência na estética e na massoterapia <em style=\"font-style: italic; color: #9ec3c2;\">ao lado de quem já transformou centenas de vidas</em>",
+    "subtitulo": "Aprenda na prática com a Michele Fernández: 25 anos de bagagem, turmas VIP reduzidas, certificado válido em todo o Brasil e 3 meses de mentoria inclusos. Dê hoje o primeiro passo rumo à sua nova carreira."
+  },
+  "metricas": {
+    "anos": "25",
+    "horas": "5000",
+    "alunas": "600"
+  },
+  "sobre": {
+    "titulo": "Uma mulher real, assim como você",
+    "texto1": "Esteticista, Cosmetóloga, Pós-graduada em Estética Avançada e Massoterapeuta há mais de 25 anos. Mãe solo de duas meninas, aprendi na prática o que é começar do zero e me reinventar.",
+    "texto2": "Hoje dedico meu tempo a ajudar mulheres que desejam ter independência e realização profissional. Chegou a sua hora — e eu estou aqui para caminhar com você."
+  },
+  "cursos": [
+    {
+      "tag": "Curso Prático",
+      "titulo": "Estética Corporal",
+      "descricao": "Massagem modeladora, perda de medidas, detox corporal, banho de lua e muito mais. Saia preparada para atender com excelência.",
+      "imagem": "https://static.wixstatic.com/media/e3411c_83014761d1894f7291d879d853695144~mv2.jpg/v1/fill/w_700,h_440,al_c,q_85,enc_avif,quality_auto/massagem-modeladora.jpg",
+      "mensagem_whatsapp": "Olá! Quero saber mais sobre o curso de Estética Corporal."
+    },
+    {
+      "tag": "Curso Prático",
+      "titulo": "Estética Facial",
+      "descricao": "Limpeza de pele, rejuvenescimento, massagem facial, microagulhamento e peeling. Técnicas de alto nível para um atendimento completo.",
+      "imagem": "https://static.wixstatic.com/media/e3411c_9d0087213de7478d81172f70ad6b4f01~mv2.jpg/v1/fill/w_700,h_440,al_c,q_85,enc_avif,quality_auto/estetica-facial_edited_.jpg",
+      "mensagem_whatsapp": "Olá! Quero saber mais sobre o curso de Estética Facial."
+    },
+    {
+      "tag": "Curso Prático",
+      "titulo": "Drenagem Linfática e Pós-operatório",
+      "descricao": "As manobras certas para uma drenagem eficiente, incluindo o módulo de pós-operatório. Uma das técnicas mais requisitadas do mercado.",
+      "imagem": "https://static.wixstatic.com/media/e3411c_1699f9a625a04fa1982885a005322c5e~mv2.jpeg/v1/crop/x_0,y_253,w_1200,h_1095/fill/w_700,h_440,al_c,q_85,enc_avif,quality_auto/drenagem-linfatica.jpeg",
+      "mensagem_whatsapp": "Olá! Quero saber mais sobre o curso de Drenagem Linfática."
+    },
+    {
+      "tag": "Curso Prático",
+      "titulo": "Massagem Terapêutica e Relaxante",
+      "descricao": "Liberação miofascial, massagem com óleos essenciais, ventosa e pedras quentes. Promova alívio físico e emocional real.",
+      "imagem": "https://static.wixstatic.com/media/e3411c_a46f187b7fe6443d8c9d3be214eb2140~mv2.jpg/v1/fill/w_700,h_440,al_c,q_85,enc_avif,quality_auto/massagem-terapeutica.jpg",
+      "mensagem_whatsapp": "Olá! Quero saber mais sobre o curso de Massagem Terapêutica."
+    }
+  ],
+  "depoimentos": [
+    {
+      "estrelas": "★★★★★",
+      "texto": "Curso simplesmente perfeito e muito completo. A Dra. Michele é uma profissional excepcional. Foi um divisor de águas — hoje me sinto preparada e muito instruída.",
+      "nome": "Kariny Forasteiro",
+      "cargo": "Aluna formada",
+      "imagem": "https://static.wixstatic.com/media/e3411c_782dba1350234cd1b418698af861d01f~mv2.jpg/v1/crop/x_0,y_104,w_720,h_720/fill/w_88,h_88,al_c,q_80,enc_avif,quality_auto/curso-de-massagem_edited.jpg"
+    },
+    {
+      "estrelas": "★★★★★",
+      "texto": "Foi um sábado maravilhoso. Michele é super atenciosa e carinhosa, dá para ver que gosta do que faz. Teve atenção especial comigo sobre minha alimentação. Deus abençoe suas mãos!",
+      "nome": "Luciana Teixeira",
+      "cargo": "Aluna formada",
+      "imagem": "https://static.wixstatic.com/media/e3411c_3cebef329ccb4b97941bd59959d8a8c1~mv2.jpeg/v1/crop/x_0,y_280,w_720,h_720/fill/w_88,h_88,al_c,q_80,enc_avif,quality_auto/curso-de-massagem-modeladora.jpeg"
+    },
+    {
+      "estrelas": "★★★★★",
+      "texto": "Minha experiência foi maravilhosa, Michele é um doce de pessoa. Aprendi muito e saí muito mais confiante. Super recomendo para quem quer correr atrás dos sonhos. Vale cada centavo!",
+      "nome": "Anne Hellen",
+      "cargo": "Aluna formada",
+      "imagem": "https://static.wixstatic.com/media/e3411c_bd4067d771fc47f49d75ce9440d45ded~mv2.jpg/v1/crop/x_0,y_66,w_720,h_720/fill/w_88,h_88,al_c,q_80,enc_avif,quality_auto/curso-de-massoterapia_edited_edited.jpg"
+    }
+  ],
+  "faq": [
+    { "pergunta": "Qual a duração dos cursos?", "resposta": "A duração varia conforme o programa escolhido, em média de 20 a 40 horas. Cada técnica tem sua própria carga horária." },
+    { "pergunta": "Preciso ter experiência prévia?", "resposta": "Não! Nenhum pré-requisito é exigido. Os cursos são estruturados para iniciantes e também para quem quer se aperfeiçoar." },
+    { "pergunta": "Os cursos têm certificado?", "resposta": "Sim! Certificado de conclusão válido em todo o território nacional, um específico para cada técnica concluída." },
+    { "pergunta": "Os cursos são práticos?", "resposta": "São 100% práticos! Com turmas VIP e reduzidas, você aprende fazendo, com atenção personalizada da Michele em todas as aulas." },
+    { "pergunta": "E se eu não aprender tudo durante o curso?", "resposta": "Você tem mentoria com a Michele por mais 3 meses após a conclusão, para tirar qualquer dúvida no início da sua carreira." },
+    { "pergunta": "Quanto posso ganhar como massoterapeuta?", "resposta": "Em média de R$ 1.500 a R$ 4.000 por mês — podendo ser maior para profissionais autônomos bem posicionados no mercado." },
+    { "pergunta": "Tem material didático?", "resposta": "Sim! Você recebe todas as apostilas completas no ato da matrícula, sem custo adicional." },
+    { "pergunta": "Quais são as formas de pagamento?", "resposta": "Pix ou cartão de crédito em até 10x. Fale pelo WhatsApp para saber os valores atuais de cada curso." }
+  ]
+}
