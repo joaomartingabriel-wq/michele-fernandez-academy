@@ -84,6 +84,9 @@
     .b-hero-img { object-position: center 18% !important; }
     .b-hero-fade { background: linear-gradient(180deg, #1F1A18 0%, rgba(31,26,24,0.55) 12%, transparent 34%) !important; }
   }
+  @media (max-width: 640px) {
+    .stats-strip { grid-template-columns: 1fr !important; text-align: center; justify-items: center; }
+  }
   @media (max-width: 600px) {
     .b-hero-media { min-height: 64vh !important; }
     .b-sticky-text { display: none !important; }
@@ -183,7 +186,7 @@
   </section>
 
   <!-- STATS strip (count-up) -->
-  <div style="background: linear-gradient(120deg, #2A2320 0%, #3D6C6D 145%); padding: clamp(2.8rem, 5vw, 4rem) clamp(1.4rem, 6vw, 6rem); display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1.6rem 1rem; align-items: end;">
+  <div class="stats-strip" style="background: linear-gradient(120deg, #2A2320 0%, #3D6C6D 145%); padding: clamp(2.8rem, 5vw, 4rem) clamp(1.4rem, 6vw, 6rem); display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.6rem 1rem; align-items: end;">
     <div style="text-align: center;">
       <div style="font-family: 'Playfair Display', serif; font-weight: 600; font-size: clamp(2.2rem, 4.5vw, 3.2rem); color: #DAC8BA; line-height: 1;"><span class="count-target" data-count="25" data-prefix="+" style="display: inline-block; transition: transform .25s ease;">+25</span></div>
       <div style="font-family: 'Montserrat', sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(218,200,186,0.6); margin-top: 0.55rem;">Anos de experiência</div>
