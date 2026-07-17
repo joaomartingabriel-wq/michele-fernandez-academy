@@ -48,6 +48,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Montserrat:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+<!-- Google tag (gtag.js) - GA4: michelefernandezacademy.com -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LP5V481RXR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-LP5V481RXR');
+</script>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; }
@@ -527,15 +536,14 @@
     });
   });
 
-  // Google Ads / Meta conversion tracking em cliques de WhatsApp
+  // Google Ads / GA4 conversion tracking em cliques de WhatsApp
   document.addEventListener('click', function(e){
     var a = e.target.closest && e.target.closest('a[href*="wa.me"], a[href*="api.whatsapp.com"]');
     if (!a) return;
     try {
       if (typeof window.gtag === 'function') {
-        // SUBSTITUA 'AW-XXXXXXXXX/YYYYYYYY' pelo ID/rótulo de conversão do Google Ads
-        window.gtag('event', 'conversion', { send_to: 'AW-XXXXXXXXX/YYYYYYYY' });
-        window.gtag('event', 'contato_whatsapp', { event_category: 'engajamento', event_label: 'whatsapp_cta' });
+        // Nome de evento exigido pela ação de conversão do Google Ads (GA4): clique_whatsapp
+        window.gtag('event', 'clique_whatsapp', { event_category: 'engajamento', event_label: 'whatsapp_cta' });
       }
       window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({ event: 'whatsapp_click' });
